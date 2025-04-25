@@ -1,6 +1,8 @@
 # How_to_expand_ubuntu
 ubuntu扩大磁盘的方法
 
+**！！！强烈建议备份数据然后重装系统，此扩容方法若操作不当可能会导致grub引导项丢失**
+
 以ubuntu22.04版本为例
 
 准备一个ubuntu启动盘（我启动盘的镜像与装好的ubuntu是同一个版本，都是22.04,暂不知版本不同是否会有影响）
@@ -14,6 +16,7 @@ https://b23.tv/loVn9P2
 **第一步**
 
 在windows系统提前腾出一定大小的新加卷
+![image](https://github.com/user-attachments/assets/67606182-7562-492f-bc26-826394e6dc81)
 
 **第二步**
 
@@ -29,11 +32,23 @@ sudo apt install gparted
 
 **第三步**
 
-重启电脑狂按f12，通过启动盘进入ubuntu（一定要选择try ubuntu）
+插入启动盘，重启电脑狂按f12，通过启动盘进入ubuntu
 
-**第四步**
+![image](https://github.com/user-attachments/assets/31394ebc-6608-4321-8c7f-433227e0ec83)
 
-打开gparted软件进行合并分区就行
+![image](https://github.com/user-attachments/assets/d06c53b2-0839-4e49-a1f9-a1a5d825619d)
+
+![image](https://github.com/user-attachments/assets/ca3da865-bced-49cf-b730-a41b0b46f015)
+
+![image](https://github.com/user-attachments/assets/1be23059-d25b-4cb9-9f3e-c673fded48e0)
+
+![image](https://github.com/user-attachments/assets/7e698fa5-504e-4c0c-af91-e5b1ec5215de)
+
+![image](https://github.com/user-attachments/assets/098106b9-eab5-4908-bfee-c26fb5dc433f)
+
+
+
+
 
 本文参考csdn文献，以及b站视频
 
